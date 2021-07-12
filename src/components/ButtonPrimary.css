@@ -1,0 +1,20 @@
+.button-primary {
+  transition: 0.3s;
+  background: black;
+  padding: 12px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+}
+
+.button-primary:hover {
+  transform: scale(1.1);
+}
+
+.button-primary span {
+  font-weight: 200 !important;
+  color: rgb(185, 185, 185);
+}

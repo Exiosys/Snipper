@@ -1,0 +1,48 @@
+.top-landing {
+  background-image: url("../assets//Background.png");
+  background-repeat: no-repeat;
+  width: 100vw;
+  object-fit: cover;
+  background-size: cover;
+}
+
+.titles-content {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titles-content h1 {
+  font-weight: 700;
+  text-align: center;
+}
+
+.titles-content p {
+  color: rgb(22, 22, 22);
+  font-size: 14px;
+  font-weight: 200;
+  margin-top: 10px;
+  max-width: 50%;
+  text-align: center;
+}
+
+.snippet-image {
+  margin-top: 60px;
+  width: 100%;
+}
+
+@media (max-width: 650px) {
+  .titles-content h1 {
+    font-weight: 700;
+    font-size: 50px;
+  }
+  .titles-content p {
+    max-width: 100%;
+    font-size: 18px;
+  }
+  .titles-content button {
+    width: 100%;
+  }
+}

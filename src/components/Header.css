@@ -1,0 +1,43 @@
+header {
+  padding-top: 30px;
+  width: 70vw;
+  margin: 0 auto;
+}
+
+header .search-icon {
+  width: 20px;
+}
+
+header .sign-in {
+  font-weight: 200;
+  margin: 0 20px;
+}
+
+header .logo {
+  width: 90px;
+}
+
+.burger-menu {
+  display: none;
+}
+
+.header-content {
+  display: flex;
+}
+
+@media (max-width: 650px) {
+  header {
+    padding-top: 40px;
+    width: 85vw;
+    margin: 0 auto;
+  }
+  header .logo {
+    width: 120px;
+  }
+  .burger-menu {
+    display: block;
+  }
+  div.header-content {
+    display: none !important;
+  }
+}
